@@ -11,6 +11,7 @@ Specialized in high-performance web systems (sub-second Core Web Vitals), edge A
 - Performance by Architecture: Zero-bloat engineering using Astro, React, TypeScript, and modern browser standards to deliver Largest Contentful Paint (LCP) under 1.0s and zero Cumulative Layout Shift (CLS).
 - Edge AI & Sovereign Software: Moving AI computation to the browser via WebAssembly (WASM) and ONNX Runtime to protect user privacy and eliminate GPU infrastructure overhead.
 - Zero-SaaS Architecture: Building tailor-made portals, parametric quotation engines, and automated workflows on serverless infrastructure (Cloudflare Workers, Supabase RLS, PostgreSQL).
+- Telemetry & Programmatic Growth: Dual-layer conversion engineering (Google Ads AW-18570575171 with generate_lead events) and multi-property telemetry pipelines via Google Analytics 4 Data API (analyticsdata.googleapis.com). Automated zero-delay crawl dispatch to Googlebot utilizing the official Web Search Indexing API (indexing.googleapis.com).
 
 ---
 
@@ -38,6 +39,13 @@ Specialized in high-performance web systems (sub-second Core Web Vitals), edge A
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
+#### Telemetry, Observability & Google Cloud Ecosystem
+![Google Cloud Platform](https://img.shields.io/badge/Google_Cloud_Platform-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Google Analytics 4](https://img.shields.io/badge/Google_Analytics_4-E37400?style=flat-square&logo=googleanalytics&logoColor=white)
+![Google Ads API](https://img.shields.io/badge/Google_Ads_API-F4B400?style=flat-square&logo=googleads&logoColor=white)
+![Google Search Console](https://img.shields.io/badge/Google_Search_Console_API-458CF5?style=flat-square&logo=google&logoColor=white)
+![Google Maps Platform](https://img.shields.io/badge/Google_Maps_Platform-34A853?style=flat-square&logo=googlemaps&logoColor=white)
+
 #### Artificial Intelligence & Automation
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini_API-8E75C2?style=flat-square&logo=google&logoColor=white)
 ![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
@@ -60,17 +68,23 @@ Specialized in high-performance web systems (sub-second Core Web Vitals), edge A
 - Solution: Deployed biometric background removal directly inside the user browser utilizing WebAssembly (WASM) and ONNX Runtime. Integrated real-time case tracking via official USCIS OAuth2 government endpoints with a chunked download recovery algorithm for unstable network conditions.
 - Architecture: Laravel 10, PHP 8.2, WebAssembly (WASM), ONNX Runtime, Python (RMBG Models), REST APIs.
 
-#### 3. Studio 3150 & Boudoir — High-Ticket Editorial Photography Portfolios
+#### 3. Enterprise Telemetry & Programmatic Google Ecosystem
+- Scope: Multi-tenant telemetry pipelines across 12 connected client production properties.
+- Problem: Render-blocking third-party analytics tags that degrade mobile Core Web Vitals and slow manual search indexing cycles.
+- Solution: Engineered lightweight non-blocking event dispatchers for Google Ads conversion tracking and integrated Google Analytics 4 Data API for server-side telemetry. Deployed automated Googlebot crawl dispatchers via Google Web Search Indexing API pushing instant URL_UPDATED notifications upon content deployment.
+- Architecture: Google Cloud Platform (IAM Service Accounts), Google Analytics 4 Data API, Google Ads API, Google Web Search Indexing API, Python, Cloudflare Workers.
+
+#### 4. Studio 3150 & Boudoir — High-Ticket Editorial Photography Portfolios
 - Domains: https://studio3150.com/ and https://boudoir.studio3150.com/
 - Scope: High-end creative editorial studios operating across Washington D.C., Maryland, and Virginia (DMV).
 - Architecture: Ultra-fast responsive image delivery, custom client inquiry tracking, and zero-dependency lightweight CSS grids with load times under 800ms.
 
-#### 4. Eickermanns Handyman & Honey Homes — Bilingual Residential Services
+#### 5. Eickermanns Handyman & Honey Homes — Bilingual Residential Services
 - Domain: https://eickermannshandyman.com/
 - Scope: Complete digital ecosystem for Florida residential and commercial property maintenance.
 - Architecture: Custom reactive administrative portal, bilingual i18n localization engine (English/Spanish), and automated service guarantee management.
 
-#### 5. La Pasta & Burning Pizza — Offline-Ready PWA & AI Virtual Waiter
+#### 6. La Pasta & Burning Pizza — Offline-Ready PWA & AI Virtual Waiter
 - Domains: https://lapastave.com/ and https://burning-pizza.com.ve/
 - Scope: End-to-end gastronomic ordering platforms with live Kitchen Display Systems (KDS).
 - Architecture: Integrated Google Gemini AI conversational agents for automated order taking, zero-redirect local payment routing, and offline caching via Service Workers.
